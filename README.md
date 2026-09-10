@@ -1,2 +1,40 @@
 # sc_plates
 Los Angeles License Plates
+
+Add that to the server.cfg below.
+
+setr plate_override_plate01 {
+	"fileName" : "plates/plate01.png", 
+    "normalName" : "plates/plate01_n.png",
+	"pattern" : "CFX 111"
+}
+
+setr plate_override_plate02 {
+	"fileName" : "plates/plate02.png", 
+    "normalName" : "plates/plate02_n.png",
+	"pattern" : "CFX 111"
+}
+
+setr plate_override_plate03 {
+	"fileName" : "plates/plate03.png", 
+	"normalName" : "plates/plate03_n.png",
+	"pattern" : "CFX 111"
+}
+
+setr plate_override_plate04 {
+	"fileName" : "plates/plate04.png", 
+	"normalName" : "plates/plate04_n.png",
+	"pattern" : " CFX 111 "
+}
+
+setr plate_override_plate05 {
+	"fileName" : "plates/plate05.png", 
+	"normalName" : "plates/plate05_n.png",
+	"pattern" : "CFX 111"
+}
+
+setr plate_override_yankton_plate {
+	"fileName" : "plates/yankton_plate.png", 
+	"normalName" : "plates/yankton_plate_n.png",
+	"pattern" : "       "
+}
